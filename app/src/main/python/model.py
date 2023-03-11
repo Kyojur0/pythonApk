@@ -1,4 +1,5 @@
 import tensorflow
 
 def main():
-    return tensorflow.__version__
+    tf_version = tensorflow.__version__
+    return tf_version
